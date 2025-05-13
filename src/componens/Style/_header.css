@@ -1,0 +1,37 @@
+:root{
+    --primary-color:white;
+    --secondary-color:black;
+    --main-color: #5899d5
+}
+
+.logo{
+    font-family: "Century Gothic",sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+
+.navbar{
+    border: 2px solid black;
+    background:var(--main-color);
+}
+.nav{
+    display: flex;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    font-weight: 800;
+
+}
+li,a{
+    all: unset;
+    color: var(--primary-color);
+}
+li,a:hover{
+    cursor: pointer;
+    color: var(--secondary-color);
+}
