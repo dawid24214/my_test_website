@@ -13,8 +13,8 @@ export const Header = () =>{
                         <li className='nav-item'><a href='smarkacz'>Rmarkacz  +18</a></li>
                         <li className='nav-item'><a href='smarkacz'>Rmarkacz</a></li>
                     </ul>
-                    <button>Zaloguj się</button>
-                    <button>Zarejestruj się</button>
+                    <button className='btn-login'>Zaloguj się</button>
+                    <button className='btn-register'>Zarejestruj się</button>
                 </nav>
             </header>
     </>

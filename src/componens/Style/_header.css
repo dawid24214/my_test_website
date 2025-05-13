@@ -13,8 +13,7 @@
 
 
 .navbar{
-    border: 2px solid black;
-    background:var(--main-color);
+    background:transparent;
 }
 .nav{
     display: flex;
@@ -23,8 +22,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 20px;
-    font-weight: 800;
+    gap: 35px;
+    font-weight: 200;
 
 }
 li,a{
@@ -34,4 +33,35 @@ li,a{
 li,a:hover{
     cursor: pointer;
     color: var(--secondary-color);
+}
+
+.btn-login{
+    color: var(--primary-color);
+    border: none;
+    background: var(--main-color);
+    font-weight: 900;
+    margin: auto 0;
+}
+.btn-login:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.btn-register{
+   padding: 12px 24px;
+    background: linear-gradient(to right, #3b82f6, #6366f1);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 99999px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn-register:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+.modern-btn:active{
+    transform: scale(0.15);
 }
